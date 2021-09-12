@@ -100,8 +100,129 @@ namespace ConsoleApp1
             int ivec = int.Parse(vecums1);
             Console.WriteLine($"Sveiks, {lietName1}! Tavs vecums ir {ivec} gadi.");
 
+            // klases darbs
+            int myNumber = 15;
+            char myFavoriteLetter = 'A';
+            double myConstant = 4.58;
+            float myChangigngNum = 2.46f;
+            string name1 = "Andis is a ....";
+            bool isCar = true;
+
+
+
+
+            Console.WriteLine(myNumber);
+            Console.WriteLine(myFavoriteLetter);
+            Console.WriteLine(myConstant);
+            Console.WriteLine(myChangigngNum);
+            Console.WriteLine(name1);
+            Console.WriteLine(isCar);
+
+            Console.WriteLine(myChangigngNum * myConstant);
+
+            //______________________________________________________________
+
+
+            int myNumber1 = 3;
+            int myNumber2 = 17;
+            int sum1 = myNumber1 + myNumber2;
+
+            Console.WriteLine(sum1);
+
+            string name11 = " Helli ";
+            string name2 = "from code";
+            string namesTogether = name11 + name2;
+
+            Console.WriteLine(namesTogether);
+
+            int withPluses = 4;
+            withPluses++;
+
+            Console.WriteLine(withPluses);
+
+
+            int divisionReminder1 = 49;
+            int divisionReminder2 = 10;
+
+            int divisionReminderResult = divisionReminder1 % divisionReminder2;
+
+            Console.WriteLine(divisionReminderResult);
+
+            //____________________________________________________________________
+
+
+
+            int myNumber5 = 14;
+            int myNumber6 = 17;
+            bool isEqualNum = myNumber5 == myNumber6;
+
+            Console.WriteLine(isEqualNum);
+
+            string myText4 = " ACC";
+            string myText5 = " ACC";
+            bool isEqualText = myText5 == myText4;
+
+            Console.WriteLine(isEqualText);
+
+            int myNumber7 = 15;
+            int myNumber8 = 17;
+            bool isEqualNumber2 = myNumber7 > myNumber8;
+
+            Console.WriteLine(isEqualNumber2);
+
+            //_______________________________________________________________________
+
+
+            bool iAmTrue = true;
+            bool iAmFalse = false;
+
+            bool both = iAmTrue && iAmFalse;
+            bool or = iAmTrue || iAmFalse;
+            bool bothReverse = !both;
+
+            Console.WriteLine(both);
+            Console.WriteLine(or);
+            Console.WriteLine(bothReverse);
+
+
+            //____________________________________________________________________________
+
+
+            int myNumber9 = 14;
+            myNumber9 += 10;
+            Console.WriteLine(myNumber9);
+
+            //_____________________________________________________________________________
+
+            Console.WriteLine("Kāds ir Jūsu vārds?");
+            string userName = Console.ReadLine();
+            Console.WriteLine("Sveiks," + userName);
+
+
+            //_____________________________________________________________________________
+
+            Console.WriteLine("Kāds ir Jūsu vecums?");
+            string ageText = Console.ReadLine();
+
+            int age9 = int.Parse(ageText);
+            int previosYearAge = age9 - 1;
+            Console.WriteLine("Sveiks,tev iepriekšējā gada bija " + previosYearAge);
+            //_______________________________________________________________________________
+
+            Console.WriteLine("__________________________________________________________________");
+
+            int absWithMinus = -45;
+            int absAfter = Math.Abs(absWithMinus);
+            Console.WriteLine(absAfter);
+
+            double numberToRound = 1.5557;
+            double roundedNumber = Math.Round(numberToRound, 2);
+            Console.WriteLine(roundedNumber);
+
+
+
         }
 
-        
+
     }
 }
